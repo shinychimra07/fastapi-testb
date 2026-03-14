@@ -2,8 +2,8 @@
   {
     "Source": "192.168.65.1:39998",
     "Destination": "localhost",
-    "RequestBody": "{\"name\": \"Blue Widget\", \"description\": \"A high-quality widget\", \"price\": 29.99, \"tax\": 2.50}",
-    "ResponseBody": "{\"id\": 1, \"name\": \"Blue Widget\", \"description\": \"A high-quality widget\", \"price\": 29.99, \"tax\": 2.50}",
+    "RequestBody": "{\"name\": \"Test Electronics Item\", \"description\": \"Testing the category field\", \"price\": 49.99, \"tax\": 4.99, \"category\": \"electronics\"}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"Test Electronics Item\", \"description\": \"Testing the category field\", \"price\": 49.99, \"tax\": 4.99, \"category\": \"electronics\"}",
     "RequestHeaders": {
       "Content-Type": [
         "application/json"
@@ -22,14 +22,14 @@
     "QueryParams": {},
     "StatusCode": 201,
     "Port": 8000,
-    "Timestamp": "2026-03-09T19:56:18.741Z",
+    "Timestamp": "2026-03-14T04:52:19.233Z",
     "Scheme": "http"
   },
   {
     "Source": "192.168.65.1:39998",
     "Destination": "localhost",
     "RequestBody": "",
-    "ResponseBody": "{\"id\": 1, \"name\": \"Blue Widget\", \"description\": \"A high-quality widget\", \"price\": 29.99, \"tax\": 2.50}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"Test Electronics Item\", \"description\": \"Testing the category field\", \"price\": 49.99, \"tax\": 4.99, \"category\": \"electronics\"}",
     "RequestHeaders": {
       "Content-Type": [
         "application/json"
@@ -48,14 +48,14 @@
     "QueryParams": {},
     "StatusCode": 200,
     "Port": 8000,
-    "Timestamp": "2026-03-09T19:56:22.321Z",
+    "Timestamp": "2026-03-14T04:52:34.302Z",
     "Scheme": "http"
   },
   {
     "Source": "192.168.65.1:39998",
     "Destination": "localhost",
-    "RequestBody": "{\"name\": \"Updated Widget\", \"description\": \"An updated high-quality widget\", \"price\": 39.99, \"tax\": 3.00}",
-    "ResponseBody": "{\"id\": 1, \"name\": \"Updated Widget\", \"description\": \"An updated high-quality widget\", \"price\": 39.99, \"tax\": 3.00}",
+    "RequestBody": "{\"name\": \"Trendy Jacket\", \"description\": \"Updated to clothing category\", \"price\": 79.99, \"tax\": 7.99, \"category\": \"clothing\"}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"Trendy Jacket\", \"description\": \"Updated to clothing category\", \"price\": 79.99, \"tax\": 7.99, \"category\": \"clothing\"}",
     "RequestHeaders": {
       "Content-Type": [
         "application/json"
@@ -74,7 +74,7 @@
     "QueryParams": {},
     "StatusCode": 200,
     "Port": 8000,
-    "Timestamp": "2026-03-09T19:56:27.082Z",
+    "Timestamp": "2026-03-14T04:52:44.997Z",
     "Scheme": "http"
   },
   {
@@ -100,7 +100,7 @@
     "QueryParams": {},
     "StatusCode": 204,
     "Port": 8000,
-    "Timestamp": "2026-03-09T19:56:30.283Z",
+    "Timestamp": "2026-03-14T04:52:58.209Z",
     "Scheme": "http"
   }
 ]
