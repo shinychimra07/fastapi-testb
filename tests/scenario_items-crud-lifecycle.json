@@ -2,8 +2,8 @@
   {
     "Source": "192.168.65.1:39998",
     "Destination": "localhost",
-    "RequestBody": "{\"name\": \"Widget Pro\", \"description\": \"A professional-grade widget\", \"price\": 29.99, \"tax\": 2.50}",
-    "ResponseBody": "{\"id\": 1, \"name\": \"Widget Pro\", \"description\": \"A professional-grade widget\", \"price\": 29.99, \"tax\": 2.50}",
+    "RequestBody": "{\"name\": \"Blue Widget\", \"description\": \"A high-quality widget\", \"price\": 29.99, \"tax\": 2.50}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"Blue Widget\", \"description\": \"A high-quality widget\", \"price\": 29.99, \"tax\": 2.50}",
     "RequestHeaders": {
       "Content-Type": [
         "application/json"
@@ -22,14 +22,14 @@
     "QueryParams": {},
     "StatusCode": 201,
     "Port": 8000,
-    "Timestamp": "2026-03-11T11:17:45.226Z",
+    "Timestamp": "2026-03-09T19:56:18.741Z",
     "Scheme": "http"
   },
   {
     "Source": "192.168.65.1:39998",
     "Destination": "localhost",
     "RequestBody": "",
-    "ResponseBody": "{\"id\": 1, \"name\": \"Widget Pro\", \"description\": \"A professional-grade widget\", \"price\": 29.99, \"tax\": 2.50}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"Blue Widget\", \"description\": \"A high-quality widget\", \"price\": 29.99, \"tax\": 2.50}",
     "RequestHeaders": {
       "Content-Type": [
         "application/json"
@@ -48,14 +48,14 @@
     "QueryParams": {},
     "StatusCode": 200,
     "Port": 8000,
-    "Timestamp": "2026-03-11T11:17:49.217Z",
+    "Timestamp": "2026-03-09T19:56:22.321Z",
     "Scheme": "http"
   },
   {
     "Source": "192.168.65.1:39998",
     "Destination": "localhost",
-    "RequestBody": "{\"name\": \"Widget Pro Updated\", \"description\": \"An updated professional-grade widget\", \"price\": 39.99, \"tax\": 3.50}",
-    "ResponseBody": "{\"id\": 1, \"name\": \"Widget Pro Updated\", \"description\": \"An updated professional-grade widget\", \"price\": 39.99, \"tax\": 3.50}",
+    "RequestBody": "{\"name\": \"Updated Widget\", \"description\": \"An updated high-quality widget\", \"price\": 39.99, \"tax\": 3.00}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"Updated Widget\", \"description\": \"An updated high-quality widget\", \"price\": 39.99, \"tax\": 3.00}",
     "RequestHeaders": {
       "Content-Type": [
         "application/json"
@@ -74,7 +74,7 @@
     "QueryParams": {},
     "StatusCode": 200,
     "Port": 8000,
-    "Timestamp": "2026-03-11T11:17:53.446Z",
+    "Timestamp": "2026-03-09T19:56:27.082Z",
     "Scheme": "http"
   },
   {
@@ -100,7 +100,7 @@
     "QueryParams": {},
     "StatusCode": 204,
     "Port": 8000,
-    "Timestamp": "2026-03-11T11:17:57.112Z",
+    "Timestamp": "2026-03-09T19:56:30.283Z",
     "Scheme": "http"
   }
 ]
