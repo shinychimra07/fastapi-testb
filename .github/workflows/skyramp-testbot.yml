@@ -91,3 +91,7 @@ jobs:
           anthropic_api_key: ${{ secrets.SKYRAMP_TESTBOT_API_KEY }}
           enable_debug: true
           skyramp_mcp_version: next
+
+          target_setup_command: './deployment-testbot/setup.sh'
+          target_ready_check_command: 'curl -f http://localhost:8000/health'
+          target_ready_check_timeout: 60
