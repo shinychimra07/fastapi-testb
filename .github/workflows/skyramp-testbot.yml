@@ -87,7 +87,7 @@ jobs:
 
       - uses: skyramp/testbot@shiny/test-recom-update
         with:
-          skyramp_license_file: ${{ secrets.SKYRAMP_LICENSE }}
+          skyramp_license_file: ${{ secrets.SKYRAMP_LICENSE_FILE }}
           anthropic_api_key: ${{ secrets.SKYRAMP_TESTBOT_API_KEY }}
           enable_debug: true
           skyramp_mcp_version: next
